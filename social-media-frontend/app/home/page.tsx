@@ -636,9 +636,9 @@ export default function HomePage() {
           {[
             { icon: Home, label: 'Home', href: '/home', active: true },
             { icon: Compass, label: 'Explore', href: '/explore', active: false },
-            { icon: Bell, label: 'Notifications', href: '/home', active: false },
+            { icon: Bell, label: 'Notifications', href: '/notifications', active: false },
             { icon: Mail, label: 'Messages', href: '/messages', active: false },
-            { icon: Bookmark, label: 'Bookmarks', href: '/home', active: false },
+            { icon: Bookmark, label: 'Bookmarks', href: '/bookmarks', active: false },
           ].map((item, idx) => (
             <Link key={idx} href={item.href}>
               <motion.div
